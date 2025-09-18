@@ -1,0 +1,215 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cinza: #121212;
+    --preto: #000000;
+    --branco: #ffffff;
+    --cinza-opacidade-baixa: #5a5a5a3d;
+}
+
+body {
+    background-color: var(--preto);
+    color: white;
+}
+
+header.header-principal {
+    background-color: var(--preto);
+    height: 60px;
+    padding: 10px 8px 10px 8px;
+}
+
+div.div-flex {
+    display: flex;
+}
+
+img#img-logo-home {
+    width: 38px;
+    padding-left: 18px;
+    padding-top: 10px;
+}
+
+h1 {
+    margin: 7px;
+    padding: 16px 0px 0px 0px;
+    text-indent: 10px;
+}
+
+header>div.pesquisa {
+    display: inline-block;
+    background-color: var(--cinza);
+    margin-left: 670px;
+    width: 500px;
+    height: 45px;
+    border-radius: 30px;
+}
+
+img#img-lupa {
+    width: 35px;
+    margin-left: 8px;
+    margin-top: 6px;
+}
+
+div.links-login {
+    display: inline-block;
+    height: 45px;
+    width: 310px;
+    float: right;
+    text-align: right;
+    padding: 10px;
+}
+
+div.link-inscrever-se {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+div.link-inscrever-se>p {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+
+}
+
+div.link-entrar {
+    display: inline-block;
+    color: var(--preto);
+    background-color: var(--branco);
+    border-radius: 20px;
+    padding: 2px 7px;
+}
+
+div.link-entrar>p {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+aside.aside-biblioteca {
+    background-color: var(--cinza);
+    padding: 0px 10px 6px 10px;
+    border-radius: 10px;
+    margin: 6px 2px 6px 6px;
+    min-width: 330px;
+}
+
+header.header-aside {
+    height: 200px;
+    padding: -15px;
+    margin: -15px
+}
+
+h1.h1-aside {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+}
+
+a.a-header-aside {
+    color: var(--branco);
+    text-decoration: none;
+}
+
+div.div-criar-playlist {
+    display: inline-block;
+    margin-left: 70px;
+    margin-top: 25px;
+    background-color: var(--cinza-opacidade-baixa);
+    width: 74px;
+    padding: 4px;
+    border-radius: 24px;
+}
+
+div.div-criar-playlist>p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-align: center;
+}
+
+a.a-criar-playlist {
+    text-decoration: none;
+    color: var(--branco);
+}
+
+div.playlists {
+    height: 60px;
+}
+
+div.playlists:hover {
+    background-color: var(--cinza-opacidade-baixa);
+    border-radius: 8px;
+}
+
+main.main-central {
+    display: inline-block;
+    background-color: var(--cinza);
+    padding: 0px 40px 0px 40px;
+    border-radius: 10px;
+    margin: 6px;
+    min-width: 100px;
+}
+
+h1.titulo-musicas-em-alta {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.div-musicas-em-alta {
+    display: flex;
+}
+
+div.div-musicas {
+    width: 195px;
+    height: 250px;
+    margin: 10px 5px 10px 5px;
+}
+
+div.div-musicas:hover {
+    background-image: linear-gradient(to top, var(--cinza-opacidade-baixa), var(--cinza));
+    border-radius: 10px;
+}
+
+div.foto-musica {
+    background-color: var(--cinza-opacidade-baixa);
+    width: 180px;
+    height: 180px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+h1.titulo-artistas-populares {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.div-artistas-populares {
+    display: flex;
+}
+
+div.div-artistas {
+    width: 195px;
+    height: 250px;
+    margin: 10px 5px 10px 5px;
+}
+
+div.div-artistas:hover {
+    background-color: var(--cinza-opacidade-baixa);
+    border-radius: 10px;
+}
+
+div.foto-artista {
+    background-color: var(--cinza-opacidade-baixa);
+    width: 180px;
+    height: 180px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 100%;
+
+}
+
+footer {
+    background-color: var(--preto);
+    min-height: 40px;
+    width: 100%;
+}
